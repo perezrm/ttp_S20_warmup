@@ -4,6 +4,11 @@
 #words together in the following list
 still_words = ['1','22','333','4444','55555']
 
+still_words = ['1','22','333','4444','55555']
+total = 0
+for word in still_words:
+    total += len(word)
+print(total)
 
 # 2 - get the numeric values of the list items (eg. the value of '22' is 22), and print the sum.
 
